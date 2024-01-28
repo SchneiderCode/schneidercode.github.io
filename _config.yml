@@ -1,5 +1,5 @@
 ---
-title: Hyde
+title: Michael Schneider
 timezone: UTC
 collections:
   posts:
@@ -8,16 +8,14 @@ collections:
   uploads:
     title: Uploads
     output: true
-tagline: A Jekyll theme
-description: A brazen two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a>
-  theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo"
-  target="_blank">@mdo</a>.
-url: https://hyde.getpoole.com
+tagline: CV & Blog
+description: My Personal Website ...
+url: https://schneidercode.github.io
 baseurl: ''
 paginate: 5
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
+  name: Michael Schneider
+  url: https://www.linkedin.com/in/michael-schneider-2156b5a8/
 plugins:
 - jekyll-paginate
 - jekyll-gist
