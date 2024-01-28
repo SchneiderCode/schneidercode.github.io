@@ -1,20 +1,24 @@
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://hyde.getpoole.com
-baseurl:          ''
-paginate:         5
-
-# About and contact
+---
+title: Hyde
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+tagline: A Jekyll theme
+description: A brazen two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a>
+  theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo"
+  target="_blank">@mdo</a>.
+url: https://hyde.getpoole.com
+baseurl: ''
+paginate: 5
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-# Gems
+  name: Mark Otto
+  url: https://twitter.com/mdo
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
-
-# Custom vars
-version:          3.0.0
+- jekyll-paginate
+- jekyll-gist
+version: 3.0.0
