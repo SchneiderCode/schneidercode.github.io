@@ -3,22 +3,21 @@ title: Publications
 layout: default
 ---
 
-<div class="posts">
+<div id="accordion">
   {% for post in site.posts %}
-  <div class="post">
-    <h2 class="post-title">
+  <div class="card">
+    <div class="card-header" id="{{ post.title }}_heading">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#{{ post.title }}_collapse" aria-expanded="true" aria-controls="{{ {{ post.title }}_collapse">
+          {{ post.title }}
+        </button>
+      </h5>
+    </div>
+
+    <div id="{{ post.title }}_collapse" class="collapse show" aria-labelledby="{{ post.title }}_heading" data-parent="#accordion">
+      <div class="card-body">
         {{ post.citation }}
-    </h2>
+      </div>
+    </div>
   </div>
-  {% endfor %}
 </div>
-
-<!-- 
-Using the collapsible list in bootstrap, have the bar's title be: 
- Year - Publication Title
-
-The uncollapsed section will include: 
- Citation: 
- Abstract: 
- URL/PDF Link
--->
