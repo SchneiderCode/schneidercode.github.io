@@ -10,4 +10,6 @@ Todo:
    3. Publications:
        Need to incorporte bootstrap css/js so that I can expand to include the publications abstract, etc.
 
+ Create local installation for testing layout/setup: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+
 Website Created from the Hyde Jekyll Template [https://github.com/poole/hyde](https://github.com/poole/hyde)
