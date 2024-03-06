@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 tagline: CV & Blog
-description: My Personal Website ...
+description: My Personal Website
 url: https://schneidercode.github.io
 baseurl: ''
 paginate: 5
