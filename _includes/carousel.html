@@ -9,11 +9,11 @@
             <div class="carousel-item ">
         {% endif %}
         {% if media.type == "img" %}
-                <img src="assets/images/{{ media.src }}" class="d-block w-100 rounded-top-4 mx-auto" alt="{{ media.alt }}">
+                <img src="/assets/images/{{ media.src }}" class="d-block w-100 rounded-top-4 mx-auto" alt="{{ media.alt }}">
         {% else %}
                 <div class="ratio ratio-16x9">
                     <video class="rounded-top-4" playsinline controls muted>
-                        <source src="assets/videos/{{ media.src }}" type="video/mp4">
+                        <source src="/assets/videos/{{ media.src }}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>

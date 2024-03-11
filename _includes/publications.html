@@ -20,7 +20,7 @@
         <h5 class="text-center">{{ pub.title }}</h5>
         {{ pub.abstract }}
         <p class="text-center m-2">
-          <a href="assets/pdf/{{ pub.pdf }}" target="_blank">Read PDF</a>
+          <a href="/assets/pdf/{{ pub.pdf }}" target="_blank">Read PDF</a>
         </p>
         {% if pub.doi != nil and pub.doi != "" %}
           <p class="text-center m-2">

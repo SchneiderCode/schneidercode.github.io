@@ -21,7 +21,7 @@ media_videos: []
   <div class="col-12 col-lg-6">
     <div class="ratio ratio-16x9">
       <video class="rounded" playsinline controls muted>
-          <source src="assets/videos/cc_demo_whale.mp4" cl type="video/mp4">
+          <source src="/assets/videos/cc_demo_whale.mp4" cl type="video/mp4">
           Your browser does not support the video tag.
       </video>
     </div>
@@ -34,7 +34,7 @@ media_videos: []
 
 <p>Debugging, i.e. finding and fixing errors, is notoriously difficult in software programming. That difficulty only increases when dealing with physical computing systems, like e-textiles, where even the simplest of bugs can be caused by a myriad of hardware and software issues. For example, an LED not turning on could be caused by a short circuit, a loose connection in the circuit, or even be broken/burned out LED (hardware error). The LED could also not be turning on due to a software error, like an incorrect condition or a missing piece of code. Any or all of these errors could be present in a buggy project! But Circuit Check can help simplify the debugging process by enabling students to quickly check for hardware errors. </p>
 
-<img src="assets/images/potential_errors.png" class="d-block w-50 mx-auto" alt="A diagram of potential hardware and software errors causing an LED to not turn on in an e-textile project">
+<img src="/assets/images/potential_errors.png" class="d-block w-50 mx-auto" alt="A diagram of potential hardware and software errors causing an LED to not turn on in an e-textile project">
 
 <hr>
 
@@ -44,7 +44,7 @@ media_videos: []
   <div class="col-12 col-lg-5">
     <div class="ratio ratio-16x9">
       <video class="rounded" playsinline controls muted>
-        <source src="assets/videos/Circuit_Check_Demo_No_Sound.mp4" type="video/mp4">
+        <source src="/assets/videos/Circuit_Check_Demo_No_Sound.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
@@ -54,15 +54,15 @@ media_videos: []
       <div class="carousel-inner">
         <div class="carousel-item active">
           <h3 class="text-center">User Interface</h3>
-          <img src="assets/images/CC UI.png" class="d-block w-100 " alt="Diagram of Circuit Check's UI">
+          <img src="/assets/images/CC UI.png" class="d-block w-100 " alt="Diagram of Circuit Check's UI">
         </div>
         <div class="carousel-item">
           <h3 class="text-center">Observing Sensors</h3>
-           <img src="assets/images/Testing Sensor.png" class="d-block w-100" alt="Demo of observing a light sensor with Circuit Check">
+           <img src="/assets/images/Testing Sensor.png" class="d-block w-100" alt="Demo of observing a light sensor with Circuit Check">
         </div>
         <div class="carousel-item">
           <h3 class="text-center">Testing Actuators</h3>
-          <img src="assets/images/Testing LED.png" class="d-block w-100 " alt="Demo of testing an LED with Circuit Check">
+          <img src="/assets/images/Testing LED.png" class="d-block w-100 " alt="Demo of testing an LED with Circuit Check">
         </div>
       </div>
       <div class="carousel-indicators" style="position:relative">
@@ -82,25 +82,25 @@ media_videos: []
     <div id="carouselMakeCodeExtension" class="carousel carousel-dark slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="assets/images/makecode_1.png" class="d-block w-100" alt="Step 1 of adding a MakeCode Extension for Circuit Check">
+          <img src="/assets/images/makecode_1.png" class="d-block w-100" alt="Step 1 of adding a MakeCode Extension for Circuit Check">
         </div>
         <div class="carousel-item">
-          <img src="assets/images/makecode_2.png" class="d-block w-100" alt="Step 2 of adding a MakeCode Extension for Circuit Check">
+          <img src="/assets/images/makecode_2.png" class="d-block w-100" alt="Step 2 of adding a MakeCode Extension for Circuit Check">
         </div>
         <div class="carousel-item">
-          <img src="assets/images/makecode_3.png" class="d-block w-100" alt="Step 3 of adding a MakeCode Extension for Circuit Check">
+          <img src="/assets/images/makecode_3.png" class="d-block w-100" alt="Step 3 of adding a MakeCode Extension for Circuit Check">
         </div>
         <div class="carousel-item">
-          <img src="assets/images/makecode_4.png" class="d-block w-100" alt="Step 4 of adding a MakeCode Extension for Circuit Check">
+          <img src="/assets/images/makecode_4.png" class="d-block w-100" alt="Step 4 of adding a MakeCode Extension for Circuit Check">
         </div>
         <div class="carousel-item">
-          <img src="assets/images/makecode_5.png" class="d-block w-100" alt="Step 5 of adding a MakeCode Extension for Circuit Check">
+          <img src="/assets/images/makecode_5.png" class="d-block w-100" alt="Step 5 of adding a MakeCode Extension for Circuit Check">
         </div>
         <div class="carousel-item ">
-          <img src="assets/images/makecode_6.png" class="d-block w-100" alt="Step 6 of adding a MakeCode Extension for Circuit Check">
+          <img src="/assets/images/makecode_6.png" class="d-block w-100" alt="Step 6 of adding a MakeCode Extension for Circuit Check">
         </div>
         <div class="carousel-item">
-          <img src="assets/images/makecode_7.png" class="d-block w-100" alt="Step 7 of adding a MakeCode Extension for Circuit Check">
+          <img src="/assets/images/makecode_7.png" class="d-block w-100" alt="Step 7 of adding a MakeCode Extension for Circuit Check">
         </div>
       </div>
       <div class="carousel-indicators" style="position:relative">
@@ -123,7 +123,7 @@ media_videos: []
 </div>
 <div class="row mt-3">
   <div class="col-12 col-lg-6">
-    <img src="assets/images/Arduino_Starter_Detailed.png" class="d-block w-100" alt="Diagram of Circuit Check's Arduino Code">
+    <img src="/assets/images/Arduino_Starter_Detailed.png" class="d-block w-100" alt="Diagram of Circuit Check's Arduino Code">
   </div>
   <div class="col-12 col-lg-4">
     <h3 >Arduino Library</h3>

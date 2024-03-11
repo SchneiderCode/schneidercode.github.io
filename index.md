@@ -10,10 +10,10 @@ layout: default
     <div class="row">
       <div class="col-12 col-lg-4">
         <div class="card rounded-4 text-bg-dark w-75 mx-auto"> 
-          <img src="assets/images/profile_square.jpg" alt="A headshot of Michael Schneider" class="rounded-4 mt-4 mx-auto d-block" width="80%">
+          <img src="/assets/images/profile_square.jpg" alt="A headshot of Michael Schneider" class="rounded-4 mt-4 mx-auto d-block" width="80%">
           <div class="card-body">
             <h5 class="card-title text-center mb-2">Michael Schneider</h5> 
-            <h6 class="card-subtitle text-center mb-1 opacity-50">PhD Student, CU Boulder <img src="assets/images/ralphie.png" style="height:1rem"/></h6> 
+            <h6 class="card-subtitle text-center mb-1 opacity-50">PhD Student, CU Boulder <img src="/assets/images/ralphie.png" style="height:1rem"/></h6> 
           </div>
         </div>
         <div class="w-75 mx-auto mt-2">
