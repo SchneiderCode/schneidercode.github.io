@@ -4,12 +4,15 @@
   {% include head.html %}
 
   <body>
-
-    {% include sidebar.html %}
-
-    <div class="content container">
+    {% include navbar.html %}
+    <div class="container" style="margin-top:100px" >
       {{ content }}
     </div>
-
+    <script src="assets/js/bootstrap.bundle.min.js" ></script>
+    <!-- Enable Tooltips -->
+    <script> 
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
   </body>
 </html>
