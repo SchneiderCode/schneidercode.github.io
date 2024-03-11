@@ -104,13 +104,13 @@ media_videos: []
         </div>
       </div>
       <div class="carousel-indicators" style="position:relative">
-        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Step 1"></button>
-        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="1" aria-label="Step 2"></button>
-        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="2" aria-label="Step 3"></button>
-        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="3" aria-label="Step 4"></button>
-        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="4" aria-label="Step 5"></button>
-        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="5" aria-label="Step 6"></button>
-        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="6" aria-label="Step 7"></button>
+        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Step 1" style="text-indent:0;">1</button>
+        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="1" aria-label="Step 2" style="text-indent:0;">2</button>
+        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="2" aria-label="Step 3" style="text-indent:0;">3</button>
+        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="3" aria-label="Step 4" style="text-indent:0;">4</button>
+        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="4" aria-label="Step 5" style="text-indent:0;">5</button>
+        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="5" aria-label="Step 6" style="text-indent:0;">6</button>
+        <button type="button" data-bs-target="#carouselMakeCodeExtension" data-bs-slide-to="6" aria-label="Step 7" style="text-indent:0;">7</button>
       </div>
     </div>
   </div>
