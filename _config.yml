@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the personal project site for Michael Schneider - A
   researcher, education, and sotware engineer who focuses on building
   debugging and developer tools for all.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://schneidercode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  schneidercode
 collections: 
