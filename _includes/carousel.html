@@ -1,0 +1,41 @@
+<div id="carousel-aboutme" class="carousel slide rounded-4 text-bg-dark border border-2 border-dark p-1">
+    <div class="carousel-inner">
+    {% assign first_media = true %}
+    {% for media in site.carousel %} 
+        {% if first_media == true %}
+            {% assign first_media = false %}
+            <div class="carousel-item active">
+        {% else %}
+            <div class="carousel-item ">
+        {% endif %}
+        {% if media.type == "img" %}
+                <img src="assets/images/{{ media.src }}" class="d-block w-100 rounded-top-4 mx-auto" alt="{{ media.alt }}">
+        {% else %}
+                <div class="ratio ratio-16x9">
+                    <video class="rounded-top-4" playsinline controls muted>
+                        <source src="assets/videos/{{ media.src }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+        {% endif %}
+                <div class="row">
+                    <div class="col-2">
+                        <button class="carousel-control-prev-custom" type="button" data-bs-target="#carousel-aboutme" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                    </div>
+                    <div class="col-8">
+                        <h6 class="card-title text-center mt-2">{{ media.title }}</h6>
+                    </div>
+                    <div class="col-2">
+                        <button class="carousel-control-next-custom" type="button" data-bs-target="#carousel-aboutme" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    {% endfor %}
+    </div>
+</div>
