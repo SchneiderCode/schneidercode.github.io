@@ -18,7 +18,7 @@ media_videos: []
      But while I developed Circuit Check for e-textiles, it can support any physical computing project that uses either the BBC micro:bit or Adafruit Circuit Playground.
      </p>
   </div>
-  <div class="col-12 col-lg-6">
+  <div class="col-12 col-lg-6 d-flex align-items-center">
     <div class="ratio ratio-16x9">
       <video class="rounded" playsinline controls muted>
           <source src="/assets/videos/cc_demo_whale.mp4" cl type="video/mp4">
