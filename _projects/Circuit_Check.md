@@ -34,7 +34,7 @@ media_videos: []
 
 <p>Debugging, i.e. finding and fixing errors, is notoriously difficult in software programming. That difficulty only increases when dealing with physical computing systems, like e-textiles, where even the simplest of bugs can be caused by a myriad of hardware and software issues. For example, an LED not turning on could be caused by a short circuit, a loose connection in the circuit, or even be broken/burned out LED (hardware error). The LED could also not be turning on due to a software error, like an incorrect condition or a missing piece of code. Any or all of these errors could be present in a buggy project! But Circuit Check can help simplify the debugging process by enabling students to quickly check for hardware errors. </p>
 
-<img src="/assets/images/potential_errors.png" class="d-block w-50 mx-auto" alt="A diagram of potential hardware and software errors causing an LED to not turn on in an e-textile project">
+<img src="/assets/images/potential_errors.png" class="d-block col-lg-8 col-12 mx-auto" alt="A diagram of potential hardware and software errors causing an LED to not turn on in an e-textile project">
 
 <hr>
 
@@ -76,8 +76,7 @@ media_videos: []
 
 <hr>
 
-<h2 class="mt-4 mb-3">Adding Circuit Check's Library/Extension</h2>
-<div class="row border-bottom">
+<div class="mt-4 row border-bottom">
   <div class="col-12 col-lg-6">
     <div id="carouselMakeCodeExtension" class="carousel carousel-dark slide">
       <div class="carousel-inner">
@@ -121,13 +120,14 @@ media_videos: []
     <p>V2 micro:bit -<a href="https://github.com/SchneiderCode/circuit-check-extension-v2">https://github.com/SchneiderCode/circuit-check-extension-v2</a></p>
   </div>
 </div>
-<div class="row mt-3">
+<hr>
+<div class="row mt-4">
   <div class="col-12 col-lg-6">
     <img src="/assets/images/Arduino_Starter_Detailed.png" class="d-block w-100" alt="Diagram of Circuit Check's Arduino Code">
   </div>
   <div class="col-12 col-lg-4">
     <h3 >Arduino Library</h3>
-    <p>To use Circuit Check with Arduino and the Adafruit Circuit Playground, add the provided Circuit Check Library. </p>
+    <p>A zipped library for using Circuit Check with Arduino and the Adafruit Circuit Playground can be downloaded from the Google Drive Link below. For instructions on addeding a library in the Arduino IDE, check out this <a href="https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE">tutorial</a>. </p>
     <a href="https://drive.google.com/file/d/1-xzA5qj7IWIJdkQOvRPITLUq3emW5nOH/view?usp=sharing">Circuit Check Zipped Library</a>
   </div>
 </div>
