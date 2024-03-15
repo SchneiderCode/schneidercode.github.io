@@ -15,7 +15,7 @@ media_videos: []
      <ul>
       <li> Is an interactive debugging tool for electronic textiles and physical computing. </li>
       <li> Enables students to observe and test their project's hardware.</li> 
-      <li> Supports hardware exploration, without requiring students edit their code. </li>
+      <li> Supports hardware exploration, without requiring students to edit their code. </li>
       <li> Empowers students to tinker and learn while debugging. </li>
     </ul>
      <p>
