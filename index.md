@@ -22,7 +22,7 @@ layout: default
       </div>
       <div class="col-12 col-lg-8 d-flex flex-wrap align-items-center fs-4">
         <p>
-          I am a Ph.D. in Computer Science at the University of Colorado Boulder, where I research and develop tools to support middle and high school students in debugging physical computing and electronic textile (e-textile) projects.
+          I am a Ph.D. candidate in computer science at the University of Colorado Boulder, where I research and develop tools to support middle and high school students in debugging physical computing and electronic textile (e-textile) projects.
         </p>
         <p>
         I am graduating in August 2024 and am currently applying for Software Engineering positions. I am especially interested in positions focused on tool development, where I can work to create novel technologies that empower engineers (of all skill levels).
