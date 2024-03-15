@@ -1,7 +1,7 @@
 ---
 title: Circuit Check 
 layout: default
-description: "Circuit Check is an interactive debugging tool I developed to support novices in physical computing. Through it's user-interface, novices can easily observe live sensor readings, test actuators, and even pause/unpause their running program. The development of Circuit Check was supported by the National Science Foundation under Award <a href=\u0022https://www.nsf.gov/awardsearch/showAward?AWD_ID=1742081\u0022>#1742081</a>."
+description: "Circuit Check is an interactive debugging tool I developed to support novices in physical computing. Through its user-interface, novices can easily observe live sensor readings, test actuators, and even pause/unpause their running program. The development of Circuit Check was supported by the National Science Foundation under Award <a href=\u0022https://www.nsf.gov/awardsearch/showAward?AWD_ID=1742081\u0022>#1742081</a>."
 banner: Circuit-Check-Banner.png
 bannerAlt: A diagram labeling Circuit Check's primary components, which include a button for pausing a project's code and a dashboard for observing sensors and testing actuators. A student is shown using Circuit Check to test an LED.  
 media_images: [] 
