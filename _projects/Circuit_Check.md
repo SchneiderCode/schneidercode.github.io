@@ -11,19 +11,36 @@ media_videos: []
 <h1> Circuit Check </h1>
 
 <div class="row">
-  <div class="col-12 col-lg-6">
-    <p>
-     Circuit Check, an interactive debugging tool I developed to target the needs of novices, specifically middle and high school students, learning to build and program electronic textiles (e-textiles) - a form of physical computing system where students develop free-formed circuits that are sewn together with conductive thread. Through Circuit Check's interface, students can quickly and easily observe and test any part of their project's hardware. Similar features are provided by other debugging tools, but the unique aspect of Circuit Check is that it enables hardware exploration <b><i>without requiring software modifications</i></b>. This enables students to tinker and learn about their project's hardware, separately from its software. This separation of hardware and software helps to reduce the problem space for debugging and also makes it easier for teachers to coach students through the steps of hardware testing. </p>
+  <div class="col-12 col-lg-4">
+     <ul>
+      <li> Is an interactive debugging tool for electronic textiles and physical computing. </li>
+      <li> Enables students to observe and test their project's hardware.</li> 
+      <li> Supports hardware exploration, without requiring students edit their code. </li>
+      <li> Empowers students to tinker and learn while debugging. </li>
+    </ul>
      <p>
-     But while I developed Circuit Check for e-textiles, it can support any physical computing project that uses either the BBC micro:bit or Adafruit Circuit Playground.
+     The following systems are supported by Circuit Check:
      </p>
+      <ul>
+        <li>BBC micro:bit (with MakeCode)</li>
+        <li>Adafruit Circuit Playground (with Arduino IDE)</li>
+      </ul>
+     
   </div>
-  <div class="col-12 col-lg-6 d-flex align-items-center">
-    <div class="ratio ratio-16x9">
-      <video class="rounded" playsinline controls muted>
-          <source src="/assets/videos/cc_demo_whale.mp4" cl type="video/mp4">
-          Your browser does not support the video tag.
-      </video>
+  <div class="col-12 col-lg-8 d-flex align-items-center">
+    <div id="carouselCCOverview" class="carousel carousel-dark slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+           <img src="/assets/images/CC UI.png" class="d-block w-100" alt="Diagram of Circuit Check's UI">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/etextile_annotated.png" class="d-block w-100" alt="Diagram of E-textiles">
+        </div>
+      </div>
+      <div class="carousel-indicators" style="position:relative">
+        <button type="button" data-bs-target="#carouselCCOverview" data-bs-slide-to="0" class="active" aria-label="Circuit Check UI"></button>
+        <button type="button" data-bs-target="#carouselCCOverview" data-bs-slide-to="1" aria-label="E-textile Diagram"></button>
+      </div>
     </div>
   </div>
 </div>
@@ -53,10 +70,6 @@ media_videos: []
     <div id="carouselUseCC" class="carousel carousel-dark slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h3 class="text-center">User Interface</h3>
-          <img src="/assets/images/CC UI.png" class="d-block w-100 " alt="Diagram of Circuit Check's UI">
-        </div>
-        <div class="carousel-item">
           <h3 class="text-center">Observing Sensors</h3>
            <img src="/assets/images/Testing Sensor.png" class="d-block w-100" alt="Demo of observing a light sensor with Circuit Check">
         </div>
@@ -66,9 +79,8 @@ media_videos: []
         </div>
       </div>
       <div class="carousel-indicators" style="position:relative">
-        <button type="button" data-bs-target="#carouselUseCC" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Circuit Check's UI"></button>
-        <button type="button" data-bs-target="#carouselUseCC" data-bs-slide-to="1" aria-label="Observing a Sensor"></button>
-        <button type="button" data-bs-target="#carouselUseCC" data-bs-slide-to="2" aria-label="Testing an Actuator"></button>
+        <button type="button" data-bs-target="#carouselUseCC" data-bs-slide-to="0" class="active" aria-label="Observing a Sensor"></button>
+        <button type="button" data-bs-target="#carouselUseCC" data-bs-slide-to="1" aria-label="Testing an Actuator"></button>
       </div>
     </div>
   </div>

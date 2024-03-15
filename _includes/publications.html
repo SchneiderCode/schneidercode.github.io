@@ -12,7 +12,7 @@
   <div class="accordion-item">
     <h4 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{ pub.uid }}" aria-expanded="false" aria-controls="{{ pub.uid }}">
-        <p>{{ pub.citation }} {{ pub.doi }} </p>
+        <p>{{ pub.citation }} </p>
       </button>
     </h4>
     <div id="{{ pub.uid }}" class="accordion-collapse collapse" data-bs-parent="#accordionPublications_{{ year }}">
@@ -22,9 +22,9 @@
         <p class="text-center m-2">
           <a href="/assets/pdf/{{ pub.pdf }}" target="_blank">Read PDF</a>
         </p>
-        {% if pub.doi != nil and pub.doi != "" %}
+        {% if pub.online_repo != nil and pub.online_repo != "" %}
           <p class="text-center m-2">
-            <a href="https://doi.org/{{pub.doi}}" target="_blank">https://doi.org/{{pub.doi}}</a>
+            <a href="{{pub.online_repo}}" target="_blank">{{Online Repository}}</a>
           </p>
         {% endif %}
       </div>

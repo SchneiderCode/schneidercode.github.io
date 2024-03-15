@@ -32,6 +32,7 @@ collections:
     output: false
   carousel:
     output: false
+    sort_by: index
   projects:
     output: true
 
