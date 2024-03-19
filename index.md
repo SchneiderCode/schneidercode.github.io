@@ -50,6 +50,7 @@ layout: default
 
 <div id="publications">
   <h2 class="align-middle me-3">Publications</h2>
+  <p>Note: Each citation follows the formating guidelines of its parent organization.</p>
     {% include publications.html %}
 </div>
 
