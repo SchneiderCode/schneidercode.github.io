@@ -1,4 +1,8 @@
 {% assign year = "" %}
+{% assign button_aria = "true" %}
+{% assign button_collapsed = "" %} 
+{% assign accordian_show = "show" %}
+
 {% for pub in site.publications reversed %}
   {% assign currentDate = pub.date | date: "%Y" %}
   {% if year != currentDate %}
@@ -11,24 +15,25 @@
   {% endif %}
   <div class="accordion-item">
     <h4 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{ pub.uid }}" aria-expanded="false" aria-controls="{{ pub.uid }}">
+      <button class="accordion-button {{button_collapsed}}" type="button" data-bs-toggle="collapse" data-bs-target="#{{ pub.uid }}" aria-expanded="{{button_aria}}" aria-controls="{{ pub.uid }}">
         <p>{{ pub.citation }} </p>
       </button>
     </h4>
-    <div id="{{ pub.uid }}" class="accordion-collapse collapse" data-bs-parent="#accordionPublications_{{ year }}">
+    <div id="{{ pub.uid }}" class="accordion-collapse collapse {{accordian_show}}" data-bs-parent="#accordionPublications_{{ year }}">
       <div class="accordion-body">
         <h5 class="text-center">{{ pub.title }}</h5>
-        {{ pub.abstract }}
-        <p class="text-center m-2">
-          <a href="/assets/pdf/{{ pub.pdf }}" target="_blank">Read PDF</a>
+        <b>Abstract: </b>{{ pub.abstract }}
+        <p class="text-center m-2 mt-3">
+          <a href="/assets/pdf/{{ pub.pdf }}" target="_blank">PDF</a> 
+          {% if pub.online_repo != nil and pub.online_repo != "" %}
+          | <a href="{{pub.online_repo}}" target="_blank">Online Repository</a>
+          {% endif %}
         </p>
-        {% if pub.online_repo != nil and pub.online_repo != "" %}
-          <p class="text-center m-2">
-            <a href="{{pub.online_repo}}" target="_blank">{{Online Repository}}</a>
-          </p>
-        {% endif %}
       </div>
     </div>
   </div>
+  {% assign button_aria = "false" %}
+  {% assign button_collapsed = "collapsed" %} 
+  {% assign accordian_show = "" %}
 {% endfor %}
 </div>

@@ -1,19 +1,14 @@
-
-.blog-tabs{
-    --bs-nav-tabs-link-active-border-color: var(--bs-dark);
-    --bs-navbar-active-color: white;
-    --bs-nav-tabs-link-active-bg: var(--bs-dark);
-}
-
-.blog-tabs .active{
+.blog-nav .active{
     font-weight:bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 0px;
 }
 .contact-tooltip {
     --bs-tooltip-bg: var(--bs-light);
     --bs-tooltip-color: var(--bs-dark);
     --bs-tooltip-opacity:1;
     font-weight:bold;
-    
+    --bs-tooltip-margin: 5px 0px;
 }
 
 .contact-tooltip .tooltip-inner{
@@ -23,7 +18,7 @@
 .bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before {
     bottom: -2px;
     border-width: 0 calc(var(--bs-tooltip-arrow-width) * 0.5) var(--bs-tooltip-arrow-height);
-    border-bottom-color: var(--bs-tooltip-bg);
+    border-bottom-color: transparent;
 }
 
 .card-title {
